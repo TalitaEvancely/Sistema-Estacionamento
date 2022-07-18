@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="contact " id="contact">
+    
+        <div class="title white">
+            <h2>Estacionamento</h2>
+       </div>
+        <form class="form">
+          <label for="nome">Nome do veiculo: </label>
+          <input type="text" name="nome" id="nome" placeholder="digite o nome do veiculo" required />
+          <label for="placa">Placa do veiculo: </label>
+          <input type="text" name="placa" id="placa" placeholder="digite a placa do veiculo" required />
+          <button type="submit" id="cadastrar">Cadastrar</button>
+        </form>
+         </div>
+         
+    </section>
+    <!-- <form action="">
+        <label for="nome">Marca do veiculo: </label>
+        <input type="text" id="nome" placeholder="digite o nome do veiculo" autocomplete="off">
+        <label for="placa">Placa: </label>
+        <input type="text" id="placa" placeholder="digite o placa do veiculo" autocomplete="off">
+       </form>
+        -->
+    
+    <table>
+      <thead>
+        <tr>
+            <th class="nome">Nome</th>
+            <th class="nome">Placa</th>
+            <th class="nome">Hora da entrada</th>
+            <th class="nome">Ações</th>
+        </tr>
+        <tbody id="patio">   </tbody>
+      </thead>  
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>

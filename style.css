@@ -1,0 +1,112 @@
+.nome{
+    background-color: aqua;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+    
+/* }
+input{
+    width: 300px;
+}
+
+form label{
+font-size: 18px;
+}
+body form{
+display: flex;
+/* justify-content: center; 
+align-items: center;
+} */
+
+ .contact {
+    background: #0d0e0f; 
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-left: 1rem; 
+  }
+
+  .contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+   .form {
+    /* width: 100%; */
+    max-width: 32rem;
+    font-size: 1.125rem;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    /* width: 100%; */
+  }
+  
+  form label {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  .title h2{
+    color: #fff;
+  }
+  
+  form input,
+  form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  form textarea {
+    min-height: 7rem;
+    resize:vertical;
+  }
+  
+  form input:hover,
+  form input:focus,
+  form textarea:hover,
+  form textarea:focus {
+    outline: none;
+    border-color: aqua;
+    box-shadow: 0 0 0 3px #dda0dd;
+  }
+  
+  form button {
+    display: block;
+    padding: 1rem;
+    background: linear-gradient(to right, aqua, blue);
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: linear-gradient(to right, aqua, blue);
+  }
+  table tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
